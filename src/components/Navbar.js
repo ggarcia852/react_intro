@@ -16,13 +16,16 @@ export default class navbar extends Component {
                     <Link className="nav-link active" to="/">Home</Link>
                     </li>
                     <li className="nav-item">
-                    <Link className="nav-link" to="/about">About</Link>
-                    </li>
-                    <li className="nav-item">
                     <Link className="nav-link" to="/users">Users</Link>
                     </li>
                     <li className="nav-item">
+                    <Link className="nav-link" to="/userposts">User Posts</Link>
+                    </li>
+                    <li className="nav-item">
                     <Link className="nav-link" to="/racers">Racers</Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link className="nav-link" to="/about">About</Link>
                     </li>
                     </ul>
                     </div>

@@ -20,7 +20,7 @@ export default class Users extends Component {
     render() {
         return (
             <div>
-                <h1>This is the Users Page</h1>
+                <h1>Users:</h1>
                 {this.state.users.map((u, i) => <UserDetails key={i} user={u} /> )}
             </div>
         )
